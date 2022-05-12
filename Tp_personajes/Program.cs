@@ -16,14 +16,13 @@ Console.WriteLine(wizard2.CalcularDanio());
 Console.WriteLine(wizard2.Atacar());
 
 
-
-//Console.WriteLine(agile.MoverseEjeX());
+Console.WriteLine(agile.MoverseEjeX());
 
 
 Enemigo enemy = new Enemigo(100, 3);
 
-//Console.WriteLine(enemy.MoverseEjeY());
-//Console.WriteLine(enemy.MoverseEjeX());
+Console.WriteLine(enemy.MoverseEjeY());
+Console.WriteLine(enemy.MoverseEjeX());
 
 
 List<Personaje> personajes = new List<Personaje>();
@@ -49,3 +48,5 @@ foreach (IMoverse item in lista)
     Turno.MoverFichas(item);
 
 }
+
+
