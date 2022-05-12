@@ -7,11 +7,11 @@ PersonajeDeAgilidad agile = new PersonajeDeAgilidad("Pantro", 30, 10, 15);
 Console.WriteLine(agile.CalcularDanio());
 Console.WriteLine(agile.Atacar());
 
-PersonajeDeMagia wizard = new PersonajeDeMagia("Melchiades", 50, 80);
+PersonajeDeMagia wizard = new PersonajeDeMagia("Xavier", 50, 80);
 Console.WriteLine(wizard.CalcularDanio());
 Console.WriteLine(wizard.Atacar());
 
-PersonajeDeMagia wizard2 = new PersonajeDeMagia("Xavier", 20, 60, 200);
+PersonajeDeMagia wizard2 = new PersonajeDeMagia("Melchiades", 20, 70, 250);
 Console.WriteLine(wizard2.CalcularDanio());
 Console.WriteLine(wizard2.Atacar());
 
