@@ -1,26 +1,35 @@
-﻿/*using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-*/
+
 
 namespace Tp_personajes
 {
-    public abstract class Personaje
+    public abstract class Personaje : IMoverse
     {
-        public string Nombre = "";
+        public string? Nombre;
         public int Fuerza;
         public int Agilidad;
         public int Magia;
-        public int X;
-
-
-        public int CalcularDanio(int Fuerza, int Agilidad, int Magia)
+   
+        public virtual int CalcularDanio()
         {
-            return X;
+            return 0;
         }
-        public string Atacar()
-        { return $"{Nombre} hizo {X} de daño"; }
+        
+        public virtual string Atacar()
+        { 
+            return $"{Nombre} hizo {CalcularDanio()} de daño"; 
+        }
+        public string MoverseEjeX()
+        {
+            return "Moviéndose sobre X";
+        }
+        public string MoverseEjeY()
+        {
+            return "Moviéndose sobre Y";
+        }
     }
 }
