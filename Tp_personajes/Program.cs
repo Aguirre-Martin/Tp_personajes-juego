@@ -11,7 +11,7 @@ PersonajeDeMagia wizard = new PersonajeDeMagia("Melchiades", 50, 80);
 Console.WriteLine(wizard.CalcularDanio());
 Console.WriteLine(wizard.Atacar());
 
-PersonajeDeMagia wizard2 = new PersonajeDeMagia("Xavier", 20, 60, 70);
+PersonajeDeMagia wizard2 = new PersonajeDeMagia("Xavier", 20, 60, 200);
 Console.WriteLine(wizard2.CalcularDanio());
 Console.WriteLine(wizard2.Atacar());
 

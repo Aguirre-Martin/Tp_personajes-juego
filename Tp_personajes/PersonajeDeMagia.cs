@@ -35,7 +35,7 @@ namespace Tp_personajes
 
         public override int CalcularDanio()
         {
-            return Fuerza + Agilidad + Magia * 4;
+            return Fuerza * Agilidad + Magia * 4;
         }
     }
 }
