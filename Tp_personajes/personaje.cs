@@ -25,11 +25,11 @@ namespace Tp_personajes
         }
         public string MoverseEjeX()
         {
-            return "Moviéndose sobre X";
+            return $"{Nombre} moviéndose sobre X";
         }
         public string MoverseEjeY()
         {
-            return "Moviéndose sobre Y";
+            return $"{Nombre} moviéndose sobre Y";
         }
     }
 }
